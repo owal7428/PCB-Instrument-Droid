@@ -1,0 +1,9 @@
+Added Component: Designator=BZ1(BUZZER- TH)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://www.puiaudio.com/media/SpecSheet/AT-1224-TWT-5V-2-R.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR Part #"; Value = "AT-1224-TWT-5V-2-R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BZ1-1
+Added Pin To Net: NetName=D3 Pin=BZ1-2
+Added Pin To Net: NetName=D3 Pin=J1-4
+Added Net: Name=D3
+Added Member To Class: ClassName=Sheet1 Member=Component BZ1 AT-1224-TWT-5V-2-R

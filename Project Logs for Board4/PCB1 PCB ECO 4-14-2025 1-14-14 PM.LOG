@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+5 Pin=TP5V-1
+Removed Pin From Net: NetName=GND Pin=TP5V-2
+Removed Pin From Net: NetName=GND Pin=TP5V-2
+Removed Pin From Net: NetName=GND Pin=TP5V-2
+Removed Pin From Net: NetName=Source Pin=TPSRC-1
+Removed Pin From Net: NetName=GND Pin=TPSRC-2
+Removed Pin From Net: NetName=GND Pin=TPSRC-2
+Removed Pin From Net: NetName=GND Pin=TPSRC-2
+Removed Member From Class: ClassName=Sheet1 Member=TP5V
+Removed Member From Class: ClassName=Sheet1 Member=TPSRC
