@@ -1,0 +1,12 @@
+Added Component: Designator=J1(8_PIN_100MIL-Male)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://datasheet.lcsc.com/szlcsc/2003191006_XFCN-PZ254V-11-08P_C492407.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part#"; Value = "C492407"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Extended"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "MALE"; VariantName = "[No Variations]"
+Added Component: Designator=J2(6_PIN_100MIL-Male)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://datasheet.lcsc.com/szlcsc/1810312320_BOOMELE-Boom-Precision-Elec-C37208_C37208.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part#"; Value = "C37208"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Extended"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "MALE"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sheet1 Member=Component J1 MALE 8PIN
+Added Member To Class: ClassName=Sheet1 Member=Component J2 MALE
