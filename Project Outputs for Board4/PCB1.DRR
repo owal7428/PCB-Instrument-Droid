@@ -1,0 +1,53 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB1.PcbDoc   4/14/2025  2:39:25 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PCB1-RoundHoles.TXT
+ASCII SlotHoles File : PCB1-SlotHoles.TXT
+EIA File   : PCB1.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             4         PTH        1.51inch (38.45mm)
+T2      32mil (0.8mm)                                             Round             5         PTH        0.25inch (6.25mm)
+T3      32mil (0.8mm)                                             Slot              4         PTH        1.68inch (42.72mm)
+T4      35mil (0.9mm)                                             Round             2         PTH        0.26inch (6.50mm)
+T5      39mil (1mm)                                               Round             2         PTH        0.14inch (3.50mm)
+T6      39mil (1mm)                                               Slot              1         PTH        0.06inch (1.50mm)
+T7      40mil (1.016mm)                                           Round             8         PTH        0.90inch (22.86mm)
+T8      43mil (1.1mm)                                             Round             41        PTH        7.15inch (181.49mm)
+T9      47mil (1.2mm)                                             Slot              2         PTH        0.62inch (15.86mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              69
+Layer Pair : Top Layer to Int1 (GND)
+ASCII RoundHoles File : PCB1-RoundHoles.TX1
+EIA File   : PCB1.DR1
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             29        PTH        8.19inch (207.90mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              29
+Layer Pair : Int1 (GND) to Int2 (GND)
+ASCII RoundHoles File : PCB1-RoundHoles.TX2
+EIA File   : PCB1.DR2
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             6         PTH        1.69inch (42.91mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              6
+Layer Pair : Int2 (GND) to Bottom Layer
+ASCII RoundHoles File : PCB1-RoundHoles.TX3
+EIA File   : PCB1.DR3
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             8         PTH        2.55inch (64.82mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              8
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              112
+
+Total Processing Time (hh:mm:ss) : 00:00:01
