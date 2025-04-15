@@ -2,10 +2,8 @@
 FileName = PCB1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Paste
-      File : PCB1.GTP
-
-    Adding Layer      : Top Paste
+Generating : Top Layer
+      File : PCB1.GTL
 
     Adding Layer      : Top Layer
 
@@ -13,12 +11,48 @@ Generating : Top Paste
 
 
 Used DCodes :
+    D10
+    D11
     D17
     D18
     D19
     D20
     D21
     D22
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Int1 (GND)
+      File : PCB1.G1
+
+    Adding Layer      : Int1 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
 *************************************************************
 
 *************************************************************
@@ -37,17 +71,6 @@ Used DCodes :
     D19
     D51
     D52
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : PCB1.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D40
 *************************************************************
 
 *************************************************************
@@ -79,6 +102,59 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Overlay
+      File : PCB1.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : PCB1.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+    D15
+    D55
+    D56
+*************************************************************
+
+*************************************************************
 Generating : Top Solder
       File : PCB1.GTS
 
@@ -106,39 +182,6 @@ Used DCodes :
     D36
     D37
     D38
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : PCB1.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D13
-    D15
-    D55
-    D56
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB1.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
 *************************************************************
 
 *************************************************************
@@ -180,7 +223,6 @@ Generating : Int2 (GND)
 
 
 Used DCodes :
-    D11
     D41
     D42
     D43
@@ -194,59 +236,14 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Int1 (GND)
-      File : PCB1.G1
+Generating : Keep-Out Layer
+      File : PCB1.GKO
 
-    Adding Layer      : Int1 (GND)
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : PCB1.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D39
     D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
 *************************************************************
 
 *************************************************************
@@ -264,88 +261,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Drill Drawing
-      File : PCB1.GD2
-
-    Adding Drill Pair : Top Layer-Int1 (GND)
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : PCB1.GD3
-
-    Adding Drill Pair : Int1 (GND)-Int2 (GND)
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : PCB1.GD4
-
-    Adding Drill Pair : Int2 (GND)-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
 Generating : Drill Guide
       File : PCB1.GG1
 
     Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : PCB1.GG2
-
-    Adding Drill Pair : Top Layer-Int1 (GND)
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : PCB1.GG3
-
-    Adding Drill Pair : Int1 (GND)-Int2 (GND)
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : PCB1.GG4
-
-    Adding Drill Pair : Int2 (GND)-Bottom Layer
 
     Adding Layer      : Drill Guide
 
